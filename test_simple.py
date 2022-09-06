@@ -21,5 +21,5 @@ def test_demoqa_window_size():
 
 def test_negative():
     browser.open('https://google.com/ncr')
-    browser.element('[name="q"]').should(be.blank).type('pythonnn').press_enter()
+    browser.element('[name="q"]').should(be.blank).type('1111122222555556676767wwregefvfev').press_enter()
     browser.element('[id="search"]').should(have.text('Welcome to Python.org'))
